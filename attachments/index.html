@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drowsiness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h2>DRIVER DROWSINESS</h2>
+        <form action="http://127.0.0.1:5500/" method="post">
+            <input type="text" placeholder="eye_blink_rate"name="eye_blink_rate">
+            <input type="text" placeholder="yawning_rate"name="yawning_rate">
+            <input type="text" placeholder="lane_depature_without_signal"name="lane_depature_without_signal">
+            <input type="text" placeholder="head_nodding_off"name="head_nodding_off">
+            <input type="text" placeholder="sudden_stearing_movement"name="sudden_stearing_movement">
+            <input type="text" placeholder="drugs"name="drugs">
+            <input type="text" placeholder="medication"name="medication">
+            <input type="text" placeholder="sleep_duration"name="sleep_duration">
+            <input type="text" placeholder="tiredness"name="tiredness">
+            <input type="submit" value="PREDICT">
+        </form>
+    </div>
+    
+</body>
+</html>
